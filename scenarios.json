@@ -1,0 +1,663 @@
+  [
+    {
+      "id": 1,
+      "scenario": "A pilot at Gate B2 requests taxi clearance to Runway 27R.",
+      "options": [
+        "Cleared for takeoff Runway 27R.",
+        "Taxi to Runway 27R via Alpha, hold short of Runway 27R.",
+        "Contact Ground on 121.9."
+      ],
+      "answer": 1,
+      "explanation": "Correct! ATC must provide a taxi clearance with taxiways and holding points."
+    },
+    {
+      "id": 2,
+      "scenario": "An aircraft is holding short of Runway 09 and requests takeoff clearance.",
+      "options": [
+        "Cleared for takeoff Runway 09, wind 090 at 5.",
+        "Taxi to Runway 09 via Bravo.",
+        "Descend and maintain 3000 feet."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC issues takeoff clearance when runway is clear and provides wind information."
+    },
+    {
+      "id": 3,
+      "scenario": "A pilot requests pushback from Gate C4.",
+      "options": [
+        "Pushback approved, contact Ground when ready.",
+        "Cleared for takeoff Runway 18L.",
+        "Taxi to Runway 18L via Charlie."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC must authorize pushback and advise the pilot to contact Ground."
+    },
+    {
+      "id": 4,
+      "scenario": "An inbound flight reports heavy rain and requests landing on Runway 36L.",
+      "options": [
+        "Cleared to land Runway 36L.",
+        "Taxi to Runway 36L via Delta.",
+        "Maintain 5000 feet."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC gives landing clearance when the runway is clear."
+    },
+    {
+      "id": 5,
+      "scenario": "A departing aircraft requests IFR clearance to 5000 feet.",
+      "options": [
+        "Cleared to 5000 feet, squawk 1234.",
+        "Cleared for takeoff Runway 27R.",
+        "Taxi to Runway 27R via Alpha."
+      ],
+      "answer": 0,
+      "explanation": "Correct! IFR clearance specifies altitude and squawk code before departure."
+    },
+    {
+      "id": 6,
+      "scenario": "A pilot reports an engine issue during taxi.",
+      "options": [
+        "Advise emergency services and stop taxi.",
+        "Continue taxi to the runway.",
+        "Cleared for takeoff."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC should coordinate emergency services and instruct the aircraft to stop."
+    },
+    {
+      "id": 7,
+      "scenario": "A pilot requests a runway change from 27R to 27L due to crosswind.",
+      "options": [
+        "Runway change approved, taxi via Alpha to 27L.",
+        "Cleared for takeoff 27R.",
+        "Contact Ground."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC must approve runway changes and provide taxi instructions."
+    },
+    {
+      "id": 8,
+      "scenario": "An aircraft requests to hold short of Runway 36R due to traffic.",
+      "options": [
+        "Hold short of Runway 36R, report when ready.",
+        "Cleared for takeoff Runway 36R.",
+        "Taxi to Runway 36R via Bravo."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC instructs pilots to hold short until the runway is clear."
+    },
+    {
+      "id": 9,
+      "scenario": "A pilot requests immediate departure due to medical emergency.",
+      "options": [
+        "Expedite departure, cleared for takeoff Runway 18R.",
+        "Taxi to Runway 18R via Charlie.",
+        "Maintain present position."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC prioritizes emergencies and clears the aircraft for immediate takeoff."
+    },
+    {
+      "id": 10,
+      "scenario": "A flight reports a bird strike and requests returning to the airport.",
+      "options": [
+        "Cleared to return, contact Tower on 118.5.",
+        "Continue on course.",
+        "Descend to 2000 feet."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC will clear the aircraft to return and coordinate emergency landing."
+    },
+    {
+      "id": 11,
+      "scenario": "An aircraft requests taxi to maintenance at Apron 3.",
+      "options": [
+        "Taxi via Delta, proceed to Apron 3.",
+        "Cleared for takeoff Runway 09.",
+        "Hold short of Runway 09."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC provides taxi instructions to maintenance areas."
+    },
+    {
+      "id": 12,
+      "scenario": "A departing flight requests takeoff while another aircraft is on final approach.",
+      "options": [
+        "Hold position until the runway is clear.",
+        "Cleared for takeoff immediately.",
+        "Taxi to alternate runway."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC must ensure separation and prevent runway incursions."
+    },
+    {
+      "id": 13,
+      "scenario": "A pilot reports low fuel and requests priority landing.",
+      "options": [
+        "Cleared to land immediately on Runway 27R.",
+        "Hold for traffic.",
+        "Taxi to Runway 27R."
+      ],
+      "answer": 0,
+      "explanation": "Correct! Low fuel emergencies are handled with priority landing clearance."
+    },
+    {
+      "id": 14,
+      "scenario": "An aircraft requests IFR clearance to 10,000 feet after takeoff.",
+      "options": [
+        "Climb and maintain 10,000 feet, squawk 4567.",
+        "Continue VFR.",
+        "Descend to 5000 feet."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC issues IFR clearance with assigned altitude and squawk code."
+    },
+    {
+      "id": 15,
+      "scenario": "A pilot requests taxi across an active runway to reach another taxiway.",
+      "options": [
+        "Cross Runway 18L, report clear.",
+        "Hold short of Runway 18L.",
+        "Cleared for takeoff Runway 18L."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC must explicitly approve crossing active runways."
+    },
+    {
+      "id": 16,
+      "scenario": "An inbound aircraft requests landing on Runway 36R but the runway is occupied.",
+      "options": [
+        "Hold short of Runway 36R, expect landing clearance shortly.",
+        "Cleared to land Runway 36R immediately.",
+        "Taxi to alternate runway."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC delays landing until the runway is clear."
+    },
+    {
+      "id": 17,
+      "scenario": "A pilot requests to backtrack on Runway 27R for departure.",
+      "options": [
+        "Backtrack approved, runway 27R.",
+        "Taxi via Alpha.",
+        "Cleared for takeoff without backtrack."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC must explicitly approve backtracking on active runways."
+    },
+    {
+      "id": 18,
+      "scenario": "An aircraft reports runway contamination due to snow.",
+      "options": [
+        "Advise braking action and hold short.",
+        "Cleared for takeoff.",
+        "Taxi to terminal."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC must provide braking action info and prevent takeoff until safe."
+    },
+    {
+      "id": 19,
+      "scenario": "A flight requests a short approach to land quickly due to a medical emergency.",
+      "options": [
+        "Short approach approved, maintain safety separation.",
+        "Hold pattern until normal approach.",
+        "Divert to another airport."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC may approve expedited approaches for emergencies while maintaining safety."
+    },
+    {
+      "id": 20,
+      "scenario": "A pilot requests runway change to avoid wake turbulence.",
+      "options": [
+        "Runway change approved, taxi instructions given.",
+        "Cleared for takeoff original runway.",
+        "Maintain position."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC ensures safe separation from wake turbulence with runway changes."
+    },
+    {
+      "id": 21,
+      "scenario": "An aircraft reports smoke in the cabin and requests immediate landing.",
+      "options": [
+        "Cleared to land immediately, emergency services on standby.",
+        "Continue holding pattern.",
+        "Descend to 5000 feet."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC prioritizes emergencies and clears the aircraft for landing."
+    },
+    {
+      "id": 22,
+      "scenario": "A pilot requests taxi to Runway 36L but another plane is crossing.",
+      "options": [
+        "Hold short until the runway is clear.",
+        "Cross the runway immediately.",
+        "Cleared for takeoff Runway 36L."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC ensures runway separation and safety."
+    },
+    {
+      "id": 23,
+      "scenario": "A departing aircraft requests to expedite takeoff due to connecting passengers.",
+      "options": [
+        "Cleared for takeoff as soon as safe.",
+        "Hold position.",
+        "Taxi to alternate runway."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC may expedite takeoff if traffic allows."
+    },
+    {
+      "id": 24,
+      "scenario": "An aircraft requests permission to return to the gate after pushback due to technical issues.",
+      "options": [
+        "Taxi back to gate approved.",
+        "Continue taxi to runway.",
+        "Cleared for takeoff."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC must approve return to gate for safety."
+    },
+    {
+      "id": 25,
+      "scenario": "A pilot requests VFR departure in controlled airspace.",
+      "options": [
+        "VFR departure approved, maintain visual separation.",
+        "Cleared for IFR.",
+        "Hold short of the runway."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC can approve VFR departures in controlled airspace if safe."
+    },
+    {
+      "id": 26,
+      "scenario": "An aircraft requests immediate climb to avoid turbulence.",
+      "options": [
+        "Climb to requested altitude approved.",
+        "Maintain current altitude.",
+        "Descend to 3000 feet."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC coordinates altitude changes to avoid conflicts."
+    },
+    {
+      "id": 27,
+      "scenario": "A pilot requests taxi instructions to a remote stand for de-icing.",
+      "options": [
+        "Taxi via Alpha and Delta to stand 5.",
+        "Cleared for takeoff Runway 27R.",
+        "Hold short of Runway 27R."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC provides taxi instructions to special operations areas."
+    },
+    {
+      "id": 28,
+      "scenario": "An inbound flight requests to extend final approach due to weather.",
+      "options": [
+        "Extend final approach, maintain safe separation.",
+        "Turn off approach.",
+        "Hold at initial approach fix."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC may extend approach paths to accommodate weather conditions."
+    },
+    {
+      "id": 29,
+      "scenario": "A pilot requests crossing Runway 18L to reach a taxiway.",
+      "options": [
+        "Crossing approved, report clear.",
+        "Hold short of Runway 18L.",
+        "Cleared for takeoff Runway 18L."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC must explicitly approve runway crossings."
+    },
+    {
+      "id": 30,
+      "scenario": "A departing flight requests to change departure runway due to wind shift.",
+      "options": [
+        "Runway change approved, taxi instructions given.",
+        "Continue to original runway.",
+        "Hold position."
+      ],
+      "answer": 0,
+      "explanation": "Correct! ATC updates taxi and departure instructions for wind changes."
+    },
+    {
+    
+      "id": 31,
+    "scenario": "A pilot reports a landing gear malfunction during approach.",
+    "options": [
+      "Cleared for emergency landing Runway 27L, emergency services on standby.",
+      "Continue approach normally.",
+      "Go around and hold at 3000 feet."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC must give emergency landing clearance and coordinate emergency services."
+  },
+  {
+    "id": 32,
+    "scenario": "An aircraft requests permission to backtrack Runway 36R to line up for departure.",
+    "options": [
+      "Backtrack approved, maintain caution.",
+      "Cleared for takeoff immediately.",
+      "Hold short of the runway."
+    ],
+    "answer": 0,
+    "explanation": "Correct! Backtracking must be approved explicitly by ATC."
+  },
+  {
+    "id": 33,
+    "scenario": "A pilot requests taxi clearance to the maintenance hangar after landing.",
+    "options": [
+      "Taxi via Bravo and Charlie to maintenance hangar.",
+      "Hold short of Runway 09.",
+      "Cleared for takeoff Runway 09."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC must give specific taxi instructions to maintenance areas."
+  },
+  {
+    "id": 34,
+    "scenario": "An aircraft requests a runway change due to crosswind during final approach.",
+    "options": [
+      "Runway change approved, cleared to land Runway 18R.",
+      "Continue to original runway.",
+      "Go around and hold pattern."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC may approve a runway change if safe and necessary."
+  },
+  {
+    "id": 35,
+    "scenario": "A departing flight requests immediate takeoff to avoid a storm cell.",
+    "options": [
+      "Expedite departure, cleared for takeoff Runway 27R.",
+      "Hold position.",
+      "Taxi to alternate runway."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC can expedite takeoff for weather avoidance if safe."
+  },
+  {
+    "id": 36,
+    "scenario": "A pilot requests to hold short of Runway 09L due to traffic on the runway.",
+    "options": [
+      "Hold short of Runway 09L, report when ready.",
+      "Cleared for takeoff Runway 09L.",
+      "Taxi to alternate runway."
+    ],
+    "answer": 0,
+    "explanation": "Correct! Holding short is required until the runway is clear."
+  },
+  {
+    "id": 37,
+    "scenario": "An inbound aircraft requests landing clearance but the runway is blocked by a maintenance vehicle.",
+    "options": [
+      "Hold at current position until the runway is clear.",
+      "Cleared for landing immediately.",
+      "Divert to another airport."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC ensures runway is clear before granting landing clearance."
+  },
+  {
+    "id": 38,
+    "scenario": "A flight requests taxi across multiple runways to reach a remote stand.",
+    "options": [
+      "Taxi clearance approved, cross Runways 18L and 18R, report clear.",
+      "Hold short of all runways.",
+      "Cleared for takeoff Runway 18L."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC must authorize crossings of all active runways individually."
+  },
+  {
+    "id": 39,
+    "scenario": "A pilot reports a smoke warning in the cockpit after takeoff.",
+    "options": [
+      "Return for emergency landing, emergency services on standby.",
+      "Continue flight to destination.",
+      "Descend to 5000 feet and continue."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC prioritizes aircraft emergencies and coordinates immediate landing."
+  },
+  {
+    "id": 40,
+    "scenario": "A departing aircraft requests a change of SID due to airspace congestion.",
+    "options": [
+      "SID change approved, follow new routing.",
+      "Continue with original SID.",
+      "Hold short of runway."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC can assign a different SID to manage traffic."
+  },
+  {
+    "id": 41,
+    "scenario": "A pilot requests to taxi to the terminal but must cross an active taxiway.",
+    "options": [
+      "Taxi clearance approved, cross taxiway, report clear.",
+      "Hold short of taxiway.",
+      "Cleared for takeoff Runway 36R."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC must explicitly approve crossing active taxiways."
+  },
+  {
+    "id": 42,
+    "scenario": "An aircraft reports loss of radio and requests visual landing.",
+    "options": [
+      "Clear for visual approach, maintain visual separation.",
+      "Continue holding pattern.",
+      "Descend to 2000 feet."
+    ],
+    "answer": 0,
+    "explanation": "Correct! Visual approach clearance may be issued for aircraft with radio failure."
+  },
+  {
+    "id": 43,
+    "scenario": "A pilot requests expedited taxi due to connecting flight delays.",
+    "options": [
+      "Taxi as quickly as safety permits via assigned route.",
+      "Hold position.",
+      "Cleared for takeoff."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC can expedite taxi but must maintain safety."
+  },
+  {
+    "id": 44,
+    "scenario": "An aircraft reports hydraulic failure and requests immediate landing.",
+    "options": [
+      "Cleared to land Runway 27L, emergency services on standby.",
+      "Continue holding pattern.",
+      "Divert to alternate airport."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC prioritizes emergency landings and coordinates response."
+  },
+  {
+    "id": 45,
+    "scenario": "A pilot requests permission to backtrack Runway 09R to depart.",
+    "options": [
+      "Backtrack approved, proceed with caution.",
+      "Cleared for takeoff immediately.",
+      "Hold short of runway."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC must authorize backtracking before takeoff."
+  },
+  {
+    "id": 46,
+    "scenario": "An aircraft requests landing clearance but must avoid wake turbulence from a preceding heavy aircraft.",
+    "options": [
+      "Landing clearance granted after ensuring safe separation.",
+      "Cleared immediately without separation.",
+      "Hold for alternate runway."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC ensures separation for wake turbulence before clearing to land."
+  },
+  {
+    "id": 47,
+    "scenario": "A departing flight requests takeoff on a wet runway.",
+    "options": [
+      "Cleared for takeoff Runway 18L, braking action reported.",
+      "Hold position.",
+      "Taxi to another runway."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC provides braking action info and takeoff clearance if safe."
+  },
+  {
+    "id": 48,
+    "scenario": "An inbound flight reports poor visibility and requests an ILS approach.",
+    "options": [
+      "ILS approach cleared for Runway 36R.",
+      "Continue VFR approach.",
+      "Hold at initial approach fix."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC may clear ILS approaches during low visibility conditions."
+  },
+  {
+    "id": 49,
+    "scenario": "A pilot requests to return to gate after pushback due to a passenger medical emergency.",
+    "options": [
+      "Taxi back to gate approved, emergency services alerted.",
+      "Continue to runway.",
+      "Cleared for takeoff."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC must approve return to gate and coordinate emergency response."
+  },
+  {
+    "id": 50,
+    "scenario": "A departing aircraft requests immediate climb to avoid severe turbulence.",
+    "options": [
+      "Climb to requested altitude approved.",
+      "Maintain current altitude.",
+      "Descend to 3000 feet."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC coordinates altitude changes to maintain safe separation."
+  },
+  {
+    "id": 51,
+    "scenario": "A pilot requests a short approach for priority landing due to fuel shortage.",
+    "options": [
+      "Short approach approved, maintain separation.",
+      "Hold in pattern.",
+      "Divert to alternate airport."
+    ],
+    "answer": 0,
+    "explanation": "Correct! Low-fuel aircraft may be given priority approaches."
+  },
+  {
+    "id": 52,
+    "scenario": "An aircraft requests to cross Runway 27L to reach taxiway Delta.",
+    "options": [
+      "Crossing approved, report clear.",
+      "Hold short of runway.",
+      "Cleared for takeoff Runway 27L."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC must approve crossing active runways explicitly."
+  },
+  {
+    "id": 53,
+    "scenario": "A departing flight requests SID change due to airspace congestion.",
+    "options": [
+      "SID change approved, follow new routing.",
+      "Continue with original SID.",
+      "Hold short of runway."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC manages traffic by adjusting SID assignments."
+  },
+  {
+    "id": 54,
+    "scenario": "An inbound aircraft requests landing clearance but reports nose wheel issue.",
+    "options": [
+      "Cleared for emergency landing Runway 18R.",
+      "Continue holding.",
+      "Divert to alternate airport."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC prioritizes aircraft with mechanical issues for emergency landing."
+  },
+  {
+    "id": 55,
+    "scenario": "A pilot requests to taxi to remote parking for refueling after landing.",
+    "options": [
+      "Taxi via assigned route to remote parking stand.",
+      "Hold short of taxiway.",
+      "Cleared for takeoff."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC provides taxi instructions to remote parking areas."
+  },
+  {
+    "id": 56,
+    "scenario": "A flight requests expedited departure due to connecting passenger delays.",
+    "options": [
+      "Cleared for takeoff as soon as safe.",
+      "Hold position.",
+      "Taxi to alternate runway."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC can expedite departures if traffic allows."
+  },
+  {
+    "id": 57,
+    "scenario": "A pilot requests to backtrack Runway 09L to depart after pushback error.",
+    "options": [
+      "Backtrack approved, proceed with caution.",
+      "Cleared for takeoff immediately.",
+      "Hold short of runway."
+    ],
+    "answer": 0,
+    "explanation": "Correct! Backtracking requires explicit ATC authorization."
+  },
+  {
+    "id": 58,
+    "scenario": "An aircraft requests landing clearance but must avoid wake turbulence from a heavy aircraft that just landed.",
+    "options": [
+      "Landing clearance granted after ensuring safe separation.",
+      "Cleared immediately without separation.",
+      "Hold for alternate runway."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC ensures safe separation for wake turbulence."
+  },
+  {
+    "id": 59,
+    "scenario": "A departing flight requests takeoff on a wet runway with braking concerns.",
+    "options": [
+      "Cleared for takeoff Runway 27R, braking action provided.",
+      "Hold position.",
+      "Taxi to another runway."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ATC provides braking action info before clearance on wet runways."
+  },
+  {
+    "id": 60,
+    "scenario": "An inbound flight requests ILS approach due to low visibility.",
+    "options": [
+      "ILS approach cleared Runway 36L.",
+      "Continue VFR approach.",
+      "Hold at initial approach fix."
+    ],
+    "answer": 0,
+    "explanation": "Correct! ILS approaches are used in low visibility conditions for safe landing."
+  }
+]
