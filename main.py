@@ -6,6 +6,10 @@ from dotenv import load_dotenv
 load_dotenv()  # Load .env variables
 TOKEN = os.getenv("DISCORD_TOKEN")  # Bot token from .env
 
+if not TOKEN:
+    print("❌ DISCORD_TOKEN not found in environment variables")
+    exit(1)
+
 SCENARIO_FILE = "scenarios.json"
 
 def load_scenarios():
